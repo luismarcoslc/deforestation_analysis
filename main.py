@@ -2,8 +2,6 @@ import os
 import pandas as pd
 from pandas import read_csv
 import numpy as np
-import keras
-
 
 if __name__ == '__main__':
     train_path = os.path.join(os.getcwd(), 'train.csv')
